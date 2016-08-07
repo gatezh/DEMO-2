@@ -3,6 +3,7 @@ body {
   background-color: #F6F4F3;
 }
 
-img {
-  
+div {
+  display: block;
+  justify-content: center;
 }
