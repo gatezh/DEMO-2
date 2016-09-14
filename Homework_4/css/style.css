@@ -97,24 +97,37 @@ a {
     background: linear-gradient(#373737, #303030);
     border-bottom: 1px solid #000000;
     box-shadow: 0px 1px 4px #000000;
-    z-index: 1;
 }
 
-.top-menu ul {
+.top-menu > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
 }
 
+.top-menu > ul > li {
+    position: relative;
+}
+
+.top-menu > ul > li > ul.top-submenu {
+    display: none;
+    position: absolute;
+    top: 41px;
+    /*left: 20px;*/
+    list-style: none;
+    background: brown;
+    width: 160px;
+}
+
+.top-menu > ul > li:hover > ul.top-submenu {
+    display: block;
+}
+
 .top-menu a {
-    justify-content: space-around;
-    align-items: center;
-    height: 27px;
-    font-size: 15px;
+    height: 28px;
+    font-size: 14px;
     line-height: 40px;
-    text-align: center;
-    padding: 0px 25px;
     color: white;
 }
 
