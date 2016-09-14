@@ -114,9 +114,8 @@ a {
     display: none;
     position: absolute;
     top: 41px;
-    /*left: 20px;*/
     list-style: none;
-    background: brown;
+    background: #303030;
     width: 160px;
 }
 
@@ -129,6 +128,7 @@ a {
     font-size: 14px;
     line-height: 40px;
     color: white;
+    padding-left: 10px;
 }
 
 .sidebar-left {
