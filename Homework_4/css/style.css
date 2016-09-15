@@ -20,15 +20,13 @@ a {
 }
 
 body {
-    background: url(../img/bg2.png) repeat-x;
+    background: url(../img/bg.png) repeat-x;
 }
 
 .wrapper {
     box-shadow: 1px 1px 25px 0px #000000;
     width: 1000px;
-    /*height: 990px;*/
     margin: 0 auto;
-    /*overflow: hidden;*/
     padding-top: 1px;
     background: #FFFFFF;
 }
@@ -45,7 +43,6 @@ body {
 }
 
 .countries {
-    /*border: 1px dotted blue;*/
     float: right;
     clear: right;
     text-align: center;
@@ -73,7 +70,6 @@ body {
 }
 
 .logo {
-    /*border: 1px dashed red;*/
     width: 283px;
     height: 164px;
     position: relative;
