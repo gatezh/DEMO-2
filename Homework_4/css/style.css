@@ -20,15 +20,15 @@ a {
 }
 
 body {
-    background: url(../img/bg.png) repeat-x;
+    background: url(../img/bg2.png) repeat-x;
 }
 
 .wrapper {
     box-shadow: 1px 1px 25px 0px #000000;
     width: 1000px;
-    height: 990px;
+    /*height: 990px;*/
     margin: 0 auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding-top: 1px;
     background: #FFFFFF;
 }
@@ -136,33 +136,40 @@ body {
     padding-left: 10px;
 }
 
-.sidebar-left {
-    width: 208px;
-    height: 100%;
-    float: left;
-    background: #EDEEF0;
-    border-right: 1px solid #C7CACE;
-    padding-left: 15px;
-    font-size: 14px;
-    z-index: 0;
+.content {
+    background: #FFF;
+    overflow: hidden;
 }
 
-.sidebar-left h3 {
+.sidebar-left, .sidebar-right {
+    width: 208px;
+    height: 100%;
+    background: #EDEEF0;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+}
+
+.sidebar-left h3, .sidebar-right h3 {
     text-align: center;
+    margin: 8px auto;
+}
+
+.sidebar-left {
+    float: left;
+    border-right: 1px solid #C7CACE;
+}
+
+.center-column {
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
 }
 
 .sidebar-right {
-    width: 208px;
-    height: 100%;
     float: right;
-    background: #EDEEF0;
     border-left: 1px solid #C7CACE;
-    padding-left: 15px;
-    font-size: 14px;
-}
-
-.sidebar-right h3 {
-    text-align: center;
 }
 
 footer {
