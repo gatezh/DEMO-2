@@ -32,6 +32,52 @@ p:last-child {
 ```
 
 >**Side notes**  
->There is a mistake on line 43 in css file with an example.
+>There is a mistake on line 43 in css file in the example.
 
 
+##drop-down menu made with css
+A very simple example of drop-down menu with css. Almost without styles, just to get an idea.
+
+####**HTML**
+
+```html
+<ul class="menu">
+    <li><a href="">Home</a></li>
+    <li><a href="">Products &#9662;</a>
+        <ul class="submenu">
+            <li><a href="">Prod1</a></li>
+            <li><a href="">Prod2</a></li>
+            <li><a href="">Prod3</a></li>
+            <li><a href="">Prod4</a></li>
+            <li><a href="">Prod5</a></li>
+        </ul>
+    </li>
+    <li><a href="">Prices</a></li>
+    <li><a href="">Articles</a></li>
+    <li><a href="">Contacts</a></li>
+</ul>
+```
+
+####CSS
+
+```css
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.menu > li:hover > ul {
+    display: block;
+}
+```
