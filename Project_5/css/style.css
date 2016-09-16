@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-height: 1060px;
+    max-width: 1215px;
+    background: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
