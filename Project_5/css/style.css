@@ -12,8 +12,8 @@ a {
 body {
     max-height: 1060px;
     max-width: 1215px;
-    background: url(../img/background.jpeg);
+    background: url(../img/background.jpeg) center no-repeat fixed;
+    /*background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment: fixed;*/
 }
