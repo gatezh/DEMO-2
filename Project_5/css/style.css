@@ -9,12 +9,52 @@ a {
     text-decoration: none;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    max-height: 1060px;
-    max-width: 1215px;
-    background: url(../img/background.jpeg) top center no-repeat fixed;
-    /*background-position: center;
+    height: 100%;
+    min-height: 565px;
+    /*max-height: 1080px;*/
+    background-image: url(../img/background.jpeg);
+    background-position: center 35px;
     background-repeat: no-repeat;
-    background-attachment: fixed;*/
-    background-size: auto 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    line-height: 35px;
+    background-color: #005390;
+    list-style: none;
+    text-decoration: none;
+    color: #00AFE2;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: #00AFE2;
+}
+
+.main-content {
+    width: 100%;
+    height: 95%;
+}
+
+.form-block-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-block {
+    width: 380px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.6);
 }
