@@ -11,6 +11,7 @@ a {
 
 html {
     height: 100%;
+    font-family: sans-serif;
 }
 
 body {
@@ -25,20 +26,84 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
-    line-height: 35px;
-    background-color: #005390;
+    background-image: url(../img/background-menu.png);
+    padding: 0 20px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-menu li {
+    display: inline-block;
     list-style: none;
     text-decoration: none;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+/*.top-menu li:last-child,
+.top-menu li:last-child a
+ {
+    display: flex;
+    background-color: #00AED8;
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.top-menu li:last-child a {
+    text-decoration: underline;
+}*/
+
+.top-menu li:hover a {
+    background-color: #00AED8;
+}
+
+.top-menu a {
+    padding: 0 10px;
+    display: block;
     color: #00AFE2;
 }
 
-header li {
-    display: inline;
+.top-menu li span {
+    display: block;
 }
 
-header a {
-    color: #00AFE2;
+.top-menu a:hover {
+    color: #FFF;
+}
+
+.right-menu, .right-menu li {
+    display: inline-block;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+.right-menu {
+    border-left: 1px solid #00A0D5;
+}
+
+/*.right-menu span {
+    padding-left: 10px;
+}
+
+.right-menu a {
+    padding-left: 10px;
+    display: block;
+    color: #FFF;
+}*/
+
+.right-menu li:last-child {
+    background: linear-gradient(#00B6D9, #007DC2);
+    color: #FFF;
+}
+
+.right-menu li:last-child a {
+    text-decoration: underline;
 }
 
 .main-content {
