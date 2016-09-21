@@ -46,19 +46,6 @@ header {
     font-size: 12px;
 }
 
-/*.top-menu li:last-child,
-.top-menu li:last-child a
- {
-    display: flex;
-    background-color: #00AED8;
-    padding: 0 10px;
-    color: #FFF;
-}
-
-.top-menu li:last-child a {
-    text-decoration: underline;
-}*/
-
 .top-menu li:hover a {
     background-color: #00AED8;
 }
@@ -87,23 +74,34 @@ header {
     border-left: 1px solid #00A0D5;
 }
 
-/*.right-menu span {
-    padding-left: 10px;
+.right-menu li {
+    padding: 0 10px;
 }
 
-.right-menu a {
-    padding-left: 10px;
-    display: block;
+.right-menu li a {
     color: #FFF;
-}*/
+}
+
+.right-menu li:first-child:hover {
+    background-color: #00AED8;
+}
 
 .right-menu li:last-child {
     background: linear-gradient(#00B6D9, #007DC2);
     color: #FFF;
 }
 
+.right-menu li:first-child a {
+    display: block;
+    padding-left: 40px;
+}
+
 .right-menu li:last-child a {
     text-decoration: underline;
+}
+
+.right-menu-flag {
+    background: url(../img/flag.png) no-repeat 14px 7px;;
 }
 
 .main-content {
