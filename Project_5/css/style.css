@@ -195,12 +195,23 @@ input[type=text]:focus {
 }
 
 form label {
-    display: block;
+    display: inline;
     color: #FFF;
     font-size: 13px;
     margin: 0 auto;
     text-align: center;
 }
+
+input[type=submit] {
+    width: 150px;
+    background: linear-gradient(#00B2DA, #007DC2);
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 0;
+    font-size: 13px;
+}
+
 .form-block span, .form-block span a {
     display: block;
     text-align: center;
