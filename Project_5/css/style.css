@@ -167,7 +167,6 @@ header {
 .fb-button-f-part {
     width: 35px;
     float: left;
-    /*line-height: 32px;*/
     font-size: 25px;
     font-weight: 600;
     border-right: 1px solid #003A71;
@@ -178,11 +177,28 @@ header {
     font-size: 15px;
 }
 
+.ou {
+    width: 275px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.ou span {
+    color: green;
+}
+
+.ou span:after,
+.ou span:before{
+    color: #847f7f;
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
 form input[type=text] {
     display: block;
     width: 275px;
     height: 30px;
-    margin: 15px auto;
+    margin: 20px auto;
     border: none;
     background-color: #080707;
     color: #FFF;
