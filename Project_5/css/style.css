@@ -178,7 +178,7 @@ header {
     font-size: 15px;
 }
 
-form input {
+form input[type=text] {
     display: block;
     width: 275px;
     height: 30px;
@@ -194,18 +194,32 @@ input[type=text]:focus {
     box-shadow: 0 0 10px 3px #0087A7;
 }
 
+.email-subscribe {
+    display: block;
+    width: 275px;
+    margin: 15px auto;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 form label {
-    display: inline;
+    display: inline-block;
     color: #FFF;
     font-size: 13px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 input[type=submit] {
+    display: block;
     width: 150px;
+    height: 30px;
+    margin: 20px auto;
     background: linear-gradient(#00B2DA, #007DC2);
     color: #FFF;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     padding-left: 0;
