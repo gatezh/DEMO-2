@@ -7,12 +7,16 @@ There are couple of other projects in [this repository](https://github.com/gatez
 
 ##Progress
 
-###Project 3
+###Project 3 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_3/index.html))
 - `:hover` pseudoclass
 - CSS `linear-gradient` property
 
-###Project 4
+###Project 4 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_4/index.html))
 - `float` property
 - equal height columns
 - flexbox (main menu)
 - CSS dropdown menu 
+
+###Project 5 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_5/index.html)) - in progress
+- learned more about flexbox
+
