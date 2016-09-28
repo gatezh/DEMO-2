@@ -17,6 +17,8 @@ There are couple of other projects in [this repository](https://github.com/gatez
 - flexbox (main menu)
 - CSS dropdown menu 
 
-###Project 5 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_5/index.html)) - in progress
+###Project 5 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_5/index.html))
 - learned more about flexbox
+
+###Project 6 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_6/index.html)) - in progress
 
