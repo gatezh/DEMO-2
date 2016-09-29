@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode Regular';
+    src: url('../fonts/lsansuni-webfont.woff2') format('woff2'),
+         url('../fonts/lsansuni-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a {
@@ -18,38 +25,116 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     margin: 22px 7px 8px;
 }
 
-header p {
-    display: inline-block;
-
+.phone-number {
+    height: 21px;
+    display: flex;
+    align-items: flex-end;
     font-size: 18px;
+    color: #5D696C;
+    padding-left: 27px;
+    background: url(../img/1header/phone-number/icon-phone.png) no-repeat 1px 0px;
+}
+
+.login-form {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(#156884, #083454);
+    padding-left: 10px;
+}
+
+.login-form img {
+    margin-right: 5px;
+}
+
+.login-form span {
+    color: #FFF;
+}
+
+.login-form span a{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #BFBFBF;
+}
+
+.top-corner-nav {
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 
 .banner {
     width: 100%;
 }
 
-nav {
+.main-menu {
     width: 100%;
     height: 34px;
     margin: 3px 0 10px;
     list-style: none;
     background: linear-gradient(#4C5662, #010101);
     border-radius: 5px;
-    text-transform: uppercase;
 }
 
-nav li {
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.main-menu li {
+    height: 25px;
     display: inline-block;
-    background: linear-gradient(#156884, #083454);
-    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode Regular";
 }
 
-nav li a {
+.main-menu li a {
     display: block;
     line-height: 25px;
     padding: 0 10px;
     color: #B0BCBF;
+}
+
+.main-menu li:hover a{
+    background: linear-gradient(#156884, #083454);
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.main-menu p {
+    line-height: 34px;
+    color: #FFF;
+}
+
+.main-menu-order {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+}
+
+.main-menu-goods {
+    padding-left: 26px;
+    background: url(../img/1header/main-menu/cart.png) no-repeat 2px 0px;
+}
+
+.main-menu-goods,
+.main-menu-total {
+    color: #868E91;
+}
+
+.main-menu-num-of-goods,
+.main-menu-total-price {
+    color: #005B8B;
 }

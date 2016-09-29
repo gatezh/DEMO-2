@@ -11,22 +11,49 @@
 <body>
     <div class="wrapper">
         <header>
-            <img src="img/icon-phone.png" alt="phone icon">
-            <p>(044)123-45-67 (044)567-89-10</p>
+            <div class="phone-number">
+                <p>(044)123-45-67 (044)567-89-10</p>
+            </div>
+
+            <div class="login-form">
+                <img src="img/1header/login-form/login.png" alt="">
+                <form class="" action="index.html" method="post">
+                    <input type="text" name="login" value="" placeholder="логин">
+                    <input type="password" name="password" value="" placeholder="пароль">
+                    <input type="submit" name="sign-in" value="вход">
+                    <span>|</span>
+                    <input type="button" name="sign-up" value="регистрация">
+                </form>
+                <span><a href="">забыли пароль?</a></span>
+            </div>
+
+            <div class="top-corner-nav">
+                <li><a href="#"><img src="img/1header/top-corner-nav/home.png" alt=""></a></li>
+                <li><a href="#"><img src="img/1header/top-corner-nav/site-map.png" alt=""></a></li>
+                <li><a href="#"><img src="img/1header/top-corner-nav/mail.png" alt=""></a></li>
+            </div>
         </header>
 
         <!-- Banner -->
-        <section>
-            <img class="banner" src="img/blick.png" alt="">
+        <section class="banner">
+            <img class="banner" src="img/1header/banner/blick.png" alt="">
         </section>
 
         <!-- Navigation menu -->
-        <nav>
-            <li><a href="#">О компании</a></li>
-            <li><a href="#">Оплата</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Статьи</a></li>
-            <li><a href="#">Контакты</a></li>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="main-menu-order">
+                <span class="main-menu-goods">товаров:</span>
+                <span class="main-menu-num-of-goods">0</span>
+                <span class="main-menu-total">на сумму:</span>
+                <span class="main-menu-total-price">0,00 грн.</span>
+            </div>
         </nav>
     </div>
 </body>
