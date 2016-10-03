@@ -138,3 +138,40 @@ header {
 .main-menu-total-price {
     color: #005B8B;
 }
+
+.search-forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form {
+    height: 130px;
+    border: 2px solid #B8B8B9;
+    border-radius: 15px;
+    font-size: 8px;
+}
+
+.search-by-car {
+    width: 410px;
+    padding: 0 17px;
+}
+
+.search-by-car-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-by-car-parameters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tires {
+    display: flex;
+    flex-direction: column;
+}
+
+.rims {
+    display: flex;
+    flex-direction: column;
+}
