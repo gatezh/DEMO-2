@@ -80,7 +80,7 @@ header {
 .main-menu {
     width: 100%;
     height: 34px;
-    margin: 3px 0 10px;
+    margin: 3px 0 12px;
     list-style: none;
     background: linear-gradient(#4C5662, #010101);
     border-radius: 5px;
@@ -145,8 +145,8 @@ header {
 }
 
 .search-form {
-    height: 130px;
-    border: 2px solid #B8B8B9;
+    height: 134px;
+    border: 1px solid #B8B8B9;
     border-radius: 15px;
     font-size: 8px;
 }
