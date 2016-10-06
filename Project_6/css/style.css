@@ -179,3 +179,47 @@ header {
 main {
     display: flex;
 }
+
+.side-menu {
+    width: 180px;
+}
+
+article {
+    width: 495px;
+    display: flex;
+    background: linear-gradient(#E5E7E8, #92A7AF);
+}
+
+.item-block {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-block-image {
+    width: 140px;
+    border: 1px solid #A6B1B3;
+    border-radius: 15px;
+    background: #FFF;
+}
+
+.item-block-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+aside {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside h3 {
+    margin: 0 auto;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+}
