@@ -149,7 +149,7 @@ header {
     border: 1px solid #B8B8B9;
     border-radius: 15px;
     font-size: 8px;
-    margin-bottom: 19px;
+    margin-bottom: 15px;
 }
 
 .search-by-car {
@@ -183,6 +183,8 @@ main {
 
 .side-menu {
     width: 180px;
+    margin-top: 3px;
+    margin-right: 11px;
 }
 
 .side-menu h3, .side-menu h4 {
@@ -196,7 +198,7 @@ main {
 }
 
 .side-menu h3 {
-    border-radius: 10px;
+    border-radius: 13px;
     background: url(../img/3main/side-menu/icon-catalog.png) no-repeat 1px 2px;
     margin-bottom: 13px;
 }
@@ -229,9 +231,14 @@ main {
 }
 
 article {
-    width: 495px;
+    width: 526px;
+    height: 627px;
     display: flex;
+    border-radius: 2px;
     background: linear-gradient(#E5E7E8, #92A7AF);
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .item-block {
@@ -241,16 +248,38 @@ article {
     align-items: center;
 }
 
+.item-block h4 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #206988;
+}
+
+.item-block .item-block-model {
+    font-family: "Lucida Sans Unicode Regular", sans-serif;
+    font-size: 13px;
+}
+
 .item-block-image {
     width: 140px;
+    height: 130px;
     border: 1px solid #A6B1B3;
-    border-radius: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
     background: #FFF;
 }
 
 .item-block-image img {
     display: block;
     margin: 0 auto;
+}
+
+.item-block .item-block-price {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #114165;
+    font-weight: 900;
+    font-style: italic;
 }
 
 aside {
