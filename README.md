@@ -7,18 +7,18 @@ There are couple of other projects in [this repository](https://github.com/gatez
 
 ##Progress
 
-###Project 3 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_3/index.html))
+###Project 3 ([preview](https://cdn.rawgit.com/gatezh/DEMO-2/master/Project_3/index.html))
 - `:hover` pseudoclass
 - CSS `linear-gradient` property
 
-###Project 4 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_4/index.html))
+###Project 4 ([preview](https://cdn.rawgit.com/gatezh/DEMO-2/master/Project_4/index.html))
 - `float` property
 - equal height columns
 - flexbox (main menu)
 - CSS dropdown menu 
 
-###Project 5 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_5/index.html))
+###Project 5 ([preview](https://cdn.rawgit.com/gatezh/DEMO-2/master/Project_5/index.html))
 - learned more about flexbox
 
-###Project 6 ([preview](https://htmlpreview.github.io/?https://github.com/gatezh/DEMO-2/blob/master/Project_6/index.html)) - in progress
+###Project 6 ([preview](https://rawgit.com/gatezh/DEMO-2/master/Project_6/index.html)) - in progress
 
