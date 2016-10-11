@@ -233,6 +233,7 @@ main {
 article {
     width: 526px;
     height: 627px;
+    margin-right: 9px;
     display: flex;
     border-radius: 2px;
     background: linear-gradient(#E5E7E8, #92A7AF);
@@ -284,15 +285,62 @@ article {
 
 aside {
     width: 180px;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
-aside h3 {
+aside h3, aside h4 {
+    border: 1px solid #8A979B;
+    padding-left: 30px;
+    font-family: "Lucida Sans Unicode Regular", sans-serif;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-size: 13px;
+    color: #0B4262;
     margin: 0 auto;
+}
+
+aside h3 {
+    width: 183px;
+    border-radius: 13px;
+    background: url(../img/3main/side-menu/icon-catalog.png) no-repeat 1px 2px;
+    margin-bottom: 13px;
 }
 
 aside form {
     display: flex;
     flex-direction: column;
+}
+
+aside h4 {
+    width: 136px;
+    margin-left: 15px;
+    border-radius: 12px;
+    line-height: 26px;
+    padding-left: 30px;
+    background: url(../img/3main/side-menu/icon-category.png) no-repeat 3px 1px;
+}
+
+aside form label {
+    margin: 6px 0 5px 21px;
+    font-size: 12px;
+}
+
+aside form input[type=checkbox] {
+    margin-right: 13px;
+}
+
+aside form button {
+    margin-left: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(#156884, #083454);
+    line-height: 24px;
+    color: white;
+}
+
+aside input[type=submit] value {
+    color: white;
 }
