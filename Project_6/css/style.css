@@ -341,6 +341,6 @@ aside form button {
     color: white;
 }
 
-aside input[type=submit] value {
-    color: white;
+aside form button:hover {
+    cursor: pointer;
 }
