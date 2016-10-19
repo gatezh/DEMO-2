@@ -240,6 +240,7 @@ article {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .item-block {
@@ -343,4 +344,49 @@ aside form button {
 
 aside form button:hover {
     cursor: pointer;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.brands li {
+    margin: 0 7px;
+}
+
+.footer-block {
+    width: 910px;
+    height: 100px;
+    background: #1F3A4B;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li {
+    padding: 12px 5px 15px;
+    color: #BDC6C8;
+    font-size: 13px;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #BDC6C8;
+}
+
+.footer-nav li a:hover {
+    color: #4AACC8;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #7f4740;
+    display: flex;
+    justify-content: center;
 }
