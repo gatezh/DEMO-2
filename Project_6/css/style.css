@@ -32,30 +32,64 @@ header {
 
 .phone-number {
     height: 21px;
-    display: flex;
-    align-items: flex-end;
     font-size: 18px;
     color: #5D696C;
     padding-left: 27px;
-    background: url(../img/1header/phone-number/icon-phone.png) no-repeat 1px 0px;
+    background: url(../img/1header/phone-number/icon-phone.png) no-repeat 0px 0px;
+    margin-right: 26px;
 }
 
 .login-form {
+    width: 495px;
     height: 25px;
     display: flex;
     align-items: center;
     border-radius: 5px;
+    font-family: "Lucida Sans Unicode Regular";
     background: linear-gradient(#156884, #083454);
-    padding-left: 10px;
+    padding-left: 7px;
+    /*margin-right: 17px;
+    margin-top: -3px;
+    margin-bottom: 3px;*/
+    margin: -3px 17px 3px 0;
 }
 
 .login-form img {
-    margin-right: 5px;
+    margin-right: 4px;
+}
+
+.login-form input[type=text] {
+    width: 113px;
+    margin-right: 3px;
+}
+
+.login-form input[type=password] {
+    width: 113px;
+}
+
+.login-form input[type=submit] {
+    border: none;
+    font-size: 11px;
+    color: #fff;
+    background: none;
+    margin-left: -3px;
+    margin-right: -7px;
 }
 
 .login-form span {
     color: #FFF;
+    font-size: 10px;
+    margin-right: -7px;
 }
+
+.login-form input[type=button] {
+    border: none;
+    font-size: 11px;
+    color: #fff;
+    background: none;
+    margin-right: 12px;
+}
+
 
 .login-form span a{
     font-size: 12px;
@@ -64,13 +98,14 @@ header {
 }
 
 .top-corner-nav {
-    width: 70px;
+    width: 76px;
     height: 20px;
     display: flex;
     justify-content: space-around;
     list-style: none;
     border: 1px solid grey;
     border-radius: 10px;
+    margin-top: -8px;
 }
 
 .banner {
