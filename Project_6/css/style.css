@@ -48,9 +48,6 @@ header {
     font-family: "Lucida Sans Unicode Regular";
     background: linear-gradient(#156884, #083454);
     padding-left: 7px;
-    /*margin-right: 17px;
-    margin-top: -3px;
-    margin-bottom: 3px;*/
     margin: -3px 17px 3px 0;
 }
 
@@ -60,11 +57,13 @@ header {
 
 .login-form input[type=text] {
     width: 113px;
+    height: 15px;
     margin-right: 3px;
 }
 
 .login-form input[type=password] {
     width: 113px;
+    height: 15px;
 }
 
 .login-form input[type=submit] {
@@ -128,6 +127,10 @@ header {
     padding-left: 20px;
 }
 
+.main-menu ul {
+    padding-left: 118px;
+}
+
 .main-menu li {
     height: 25px;
     display: inline-block;
@@ -139,6 +142,7 @@ header {
     display: block;
     line-height: 25px;
     padding: 0 10px;
+    font-size: 14px;
     color: #B0BCBF;
 }
 
@@ -154,24 +158,41 @@ header {
 }
 
 .main-menu-order {
+    margin-right: 11px;
     display: flex;
     align-items: center;
     font-family: Arial;
 }
 
 .main-menu-goods {
-    padding-left: 26px;
-    background: url(../img/1header/main-menu/cart.png) no-repeat 2px 0px;
+    padding-left: 28px;
+    background: url(../img/1header/main-menu/cart.png) no-repeat 1px 4px;
 }
 
 .main-menu-goods,
 .main-menu-total {
+    line-height: 26px;
+    font-size: 12px;
     color: #868E91;
+}
+
+.main-menu-total {
+    margin-left: 14px;
 }
 
 .main-menu-num-of-goods,
 .main-menu-total-price {
+    font-size: 14px;
+    letter-spacing: -0.3px;
     color: #005B8B;
+}
+
+.main-menu-num-of-goods {
+    margin-left: 1px;
+}
+
+.main-menu-total-price {
+    margin-left: 10px;
 }
 
 .search-forms {
