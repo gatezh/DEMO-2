@@ -65,71 +65,211 @@
                     <h3>Поиск по автомобилю</h3>
                     <h3>Шины:</h3>
                 </div>
-
                 <div class="search-by-car-parameters">
-                    <form class="rims">
-                      <label for="auto-brand">Марка авто:</label>
-                      <select name="auto-brand" id="auto-brand">
-                        <option></option>
-                        <option>Volvo</option>
-                        <option>BMW</option>
-                      </select>
-                      <label for="auto-model">Модель автомобиля:</label>
-                      <select name="auto-brand" id="auto-brand">
-                        <option></option>
-                        <option>SUV</option>
-                        <option>Sedan</option>
-                      </select>
-                      <label for="auto-year">Год выпуска автомобиля:</label>
-                      <select name="auto-year" id="auto-brand">
-                        <option></option>
-                        <option>2008</option>
-                        <option>2009</option>
-                      </select>
-                      <label for="auto-year">Комплектация:</label>
-                      <select name="auto-inventory" id="auto-brand">
-                        <option></option>
-                        <option>1</option>
-                        <option>2</option>
-                      </select>
-                    </form>
-                    <form class="rims">
-                      <label for="auto-brand">Марка авто:</label>
-                      <select name="auto-brand" id="auto-brand">
-                        <option></option>
-                        <option>Volvo</option>
-                        <option>BMW</option>
-                      </select>
-                      <label for="auto-model">Модель автомобиля:</label>
-                      <select name="auto-brand" id="auto-brand">
-                        <option></option>
-                        <option>SUV</option>
-                        <option>Sedan</option>
-                      </select>
-                      <label for="auto-year">Год выпуска автомобиля:</label>
-                      <select name="auto-year" id="auto-brand">
-                        <option></option>
-                        <option>2008</option>
-                        <option>2009</option>
-                      </select>
-                      <label for="auto-year">Комплектация:</label>
-                      <select name="auto-inventory" id="auto-brand">
-                        <option></option>
-                        <option>1</option>
-                        <option>2</option>
-                      </select>
-                    </form>
+                    <table class="rims">
+                        <tr>
+                            <td>Марка <span>авто:</span></td>
+                            <td>
+                                <select class="select-long" name="auto-brand" id="auto-brand">
+                                    <option></option>
+                                    <option>Volvo</option>
+                                    <option>BMW</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Модель <span>автомобиля:</span></td>
+                            <td>
+                                <select class="select-long" name="auto-brand" id="auto-brand">
+                                    <option></option>
+                                    <option>SUV</option>
+                                    <option>Sedan</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Год выпуска <span>автомобиля:</span></td>
+                            <td>
+                                <select name="auto-year" id="auto-brand">
+                                    <option></option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Комплектация:</td>
+                            <td>
+                                <select class="select-long" name="auto-inventory" id="auto-brand">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="tires">
+                        <tr>
+                            <td>Марка <span>авто:</span></td>
+                            <td>
+                                <select class="select-long" name="auto-brand" id="auto-brand">
+                                    <option></option>
+                                    <option>Volvo</option>
+                                    <option>BMW</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Модель <span>автомобиля:</span></td>
+                            <td>
+                                <select class="select-long" name="auto-brand" id="auto-brand">
+                                    <option></option>
+                                    <option>SUV</option>
+                                    <option>Sedan</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Год выпуска <span>автомобиля:</span></td>
+                            <td>
+                                <select class="select-year" name="auto-year" id="auto-brand">
+                                    <option></option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Комплектация:</td>
+                            <td>
+                                <select class="select-long" name="auto-inventory" id="auto-brand">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 
             <!-- Tire search -->
             <div class="search-by-tire search-form">
-
+                <div class="search-by-tire-title search-form-title">
+                    <h3>поиск шин</h3>
+                </div>
+                <table class="search-by-tire-parameters">
+                    <tr>
+                        <td>Размер:</td>
+                        <td>
+                            <select name="tire-size" id="tire-size">
+                                <option>145</option>
+                                <option>150</option>
+                            </select>
+                        </td>
+                        <td class="separator">/</td>
+                        <td>
+                            <select name="tire-size2" id="tire-size2">
+                                <option></option>
+                                <option>7</option>
+                                <option>8</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R</td>
+                        <td>
+                            <select name="tire-R" id="tire-R">
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Сезон:</td>
+                        <td>
+                            <label><input type="checkbox" name="season" value="summer">лето</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label><input type="checkbox" name="season" value="winter">зима</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label><input type="checkbox" name="season" value="all">всесез</label>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
             <!-- Rim search -->
-            <div class="rim-search search-form">
-
+            <div class="search-by-rim search-form">
+                <div class="search-by-rim-title search-form-title">
+                    <h3>поиск дисков</h3>
+                </div>
+                <div class="search-by-rim-parameters">
+                    <table class="search-by-rim-table-1">
+                        <tr>
+                            <td>Диаметер <span>диска</span>:</td>
+                            <td>
+                                <select name="tire-size" id="tire-size">
+                                    <option>14</option>
+                                    <option>15</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Количество <span>крепежных отверстий</span>:</td>
+                            <td>
+                                <select name="tire-R" id="tire-R">
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Диаметр <span>расположения крепёжных отверстий</span>:</td>
+                            <td>
+                                <select name="tire-R" id="tire-R">
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="search-by-rim-table-2">
+                        <tr>
+                            <td>ДЦО <span>(диаметр центрального отверстия)</span>:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="tire-size" id="tire-size">
+                                    <option>12</option>
+                                    <option>13</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ET <span>(вылет диска)</span>:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="tire-R" id="tire-R">
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
         </section>
