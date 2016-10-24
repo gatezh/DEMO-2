@@ -89,7 +89,6 @@ header {
     margin-right: 12px;
 }
 
-
 .login-form span a{
     font-size: 12px;
     text-decoration: underline;
@@ -196,6 +195,8 @@ header {
 }
 
 .search-forms {
+    width: 900px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -206,6 +207,7 @@ header {
     border-radius: 15px;
     font-size: 10px;
     margin-bottom: 15px;
+    position: relative;
 }
 
 .search-form-title {
@@ -217,22 +219,47 @@ header {
 }
 
 .search-form td {
-    height: 16px;
+    vertical-align: middle;
 }
 
 .search-form td span {
     color: #76858A;
 }
 
-.search-form .select-long {
-    width: 100px;
+.search-form select {
+    margin-bottom: 6px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/2search-forms/select.png) no-repeat right;
 }
 
-.search-form .select-year {
-    width: 60px;
+.search-form .search {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: #154467;
+    text-decoration: underline;
+}
+
+.search-form .search:visited {
+    color: #154467;
+}
+
+.search-by-car {
+    width: 413px;
+    padding: 0 13px 0 17px;
+    margin-right: 7px;
 }
 
 .search-by-car-title {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.3px;
     font-family: "Arial Black", sans-serif;
     font-size: 12px;
     font-weight: 900;
@@ -244,19 +271,51 @@ header {
     font-size: 10px;
 }
 
-.search-by-car {
-    width: 410px;
-    padding: 0 17px;
+.search-by-car-title :nth-child(1) {
+    margin-left: 2px;
+    margin-top: 4px;
+    margin: 4px 0 0 2px;
 }
 
-.search-by-car-title {
-    display: flex;
-    justify-content: space-between;
+.search-by-car-title :nth-child(2) {
+    margin: 1px 0 0 -6px;
+}
+
+.search-by-car-title :nth-child(3) {
+    margin: 2px 1px 0 1px;
 }
 
 .search-by-car-parameters {
     display: flex;
     justify-content: space-between;
+}
+
+.search-by-car-table-1 {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-by-car-table-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form .select-long {
+    width: 100px;
+}
+
+.search-form .select-year {
+    width: 55px;
+}
+
+.search-by-tire {
+    width: 193px;
+    padding: 0 10px 0 12px;
+}
+
+.search-by-tire-title {
+    margin: 1px 0 11px -4px;
 }
 
 .search-by-rim-parameters {
@@ -270,17 +329,6 @@ header {
 .search-by-rim-table-2 {
     width: 40px;
     border-left: 1px solid grey;
-}
-
-
-.tires {
-    display: flex;
-    flex-direction: column;
-}
-
-.rims {
-    display: flex;
-    flex-direction: column;
 }
 
 main {
