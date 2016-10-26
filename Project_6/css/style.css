@@ -318,6 +318,37 @@ header {
     margin: 1px 0 11px -4px;
 }
 
+.search-by-tire-label {
+    width: 45px;
+}
+
+.search-by-tire-select-top {
+    width: 50px;
+}
+
+.search-by-tire-separator {
+    padding: 0 6px 0 6px;
+    font-size: 10px;
+}
+
+.search-by-tire-select-bottom {
+    width: 45px;
+}
+
+.checkbox-cell input[type=checkbox] {
+    border: 1px solid #000;
+}
+
+.search-by-rim {
+    width: 270px;
+    padding: 0 10px 0 17px;
+}
+
+.search-by-rim-title {
+    margin: 2px 0 9px -7px;
+    letter-spacing: 0.9px;
+}
+
 .search-by-rim-parameters {
     display: flex;
 }
@@ -326,21 +357,26 @@ header {
     width: 40px;
 }
 
+.search-by-rim-select-top-bottom {
+    width: 55px;
+    margin-right: 12px;
+}
+
+.search-by-rim-select-top-middle {
+    width: 50px;
+}
+
 .search-by-rim-table-2 {
     width: 40px;
     border-left: 1px solid grey;
 }
 
+.search-by-rim-label {
+    width: 90px;     /*not working!!!!*/
+}
+
 main {
     display: flex;
-}
-
-.search-by-tire {
-    width: 190px;
-}
-
-.search-by-rim {
-    width: 270px;
 }
 
 .side-menu {
