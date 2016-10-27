@@ -322,6 +322,11 @@ header {
     width: 45px;
 }
 
+.search-by-tire .r {
+    text-align: right;
+    padding-right: 10px;
+}
+
 .search-by-tire-select-top {
     width: 50px;
 }
@@ -340,8 +345,8 @@ header {
 }
 
 .search-by-rim {
-    width: 270px;
-    padding: 0 10px 0 17px;
+    width: 268px;
+    padding: 0 17px 0 14px;
 }
 
 .search-by-rim-title {
@@ -354,7 +359,9 @@ header {
 }
 
 .search-by-rim-table-1 {
-    width: 40px;
+    width: 158px;
+    display: flex;
+    flex-direction: column;
 }
 
 .search-by-rim-select-top-bottom {
@@ -367,12 +374,18 @@ header {
 }
 
 .search-by-rim-table-2 {
-    width: 40px;
+    margin: -19px 0 0 0;
     border-left: 1px solid grey;
 }
 
-.search-by-rim-label {
-    width: 90px;     /*not working!!!!*/
+.search-by-rim-table-2 td {
+    width: 80px;
+    padding-left: 10px;
+}
+
+.search-by-rim-table-2 select {
+    width: 56px;
+    margin-bottom: 3px;
 }
 
 main {
