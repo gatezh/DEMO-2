@@ -25,104 +25,170 @@ a {
 }
 
 body {
-    background: url(img/bg.jpg) no-repeat fixed;
     font-family: Arial, sans-serif;
+    background: #75527F;
 }
 
-header {
-    border: 1px dashed red;
+.header {
+    /*border: 1px dashed red;*/
+    background: url(img/1header/background.jpg) no-repeat;
+    background-size: 2400px 845px;
+    background-position: top center;
 }
 
-.main-menu li a {
+.header__main-menu li a {
     display: block;
     font-family: "League Gothic Regular", sans-serif;
     font-size: 24px;
     color: #FFF;
 }
 
-@media screen and (min-width:960px) {
-    body {
-        background-size: 2400px 845px;
-        background-position: top center;
-    }
+@media screen and (min-width:320px) {
 
-    .wrapper {
-        width: 960px;
-        margin: 0 auto;
-    }
-
-    header {
-        height: 280px;
-        padding-top: 70px;
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-start;
-    }
-
-    .main-menu {
-        display: flex;
-        background: url(img/1header/logo-960.png) no-repeat 0 0;
-    }
-
-    .main-menu li {
-        margin: 5px 0 0 40.7px;
-    }
-
-    .main-menu li a {
-        padding: 0 5px 2px 5px;
-        text-shadow: 1px 1px 1px #666;
-    }
-
-    .main-menu li:first-child a {
-        border-bottom: 2px solid #EFC0FA;
-        margin-left: 280px;
-    }
-}
-
-@media screen and (max-width:959px) {
-    body {
-        background-size: 2400px 845px;
-        background-position: top center;
-    }
-
-    .wrapper {
-        padding: 0 20px;
-    }
-
-    header {
-        height: 240px;
-        /*padding-top: 145px;*/
+    .header {
+        height: 515px;
         display: flex;
         justify-content: flex-start;
     }
 
-    .main-menu {
-        padding-top: 145px;
-        display: flex;
-        background: url(img/1header/logo-768.png) no-repeat 0 70px;
+    .header__wrapper {
+        width: 310px;
+        margin: 0 auto;
     }
 
-    .main-menu li {
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    article {
+        height: 598px;
+        border-top: 1px solid #36273A;
+        border-bottom: 1px solid #36273A;
+        background: linear-gradient(#75527F, #37293B);
+    }
+}
+
+@media screen and (min-width:480px) {
+
+    .header {
+        height: 548px;
+    }
+
+    .header__wrapper {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    article {
+        height: 598px;
+        border-top: 1px solid #36273A;
+        border-bottom: 1px solid #36273A;
+        background: linear-gradient(#75527F, #37293B);
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .header {
+        height: 798px;
+    }
+
+    .header__wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .header__logo {
+        display: block;
+        margin: 70px 0 40px;
+    }
+
+    .header__main-menu {
+        display: flex;
+    }
+
+    .header__main-menu li {
         margin: 0 50px 0 0;
     }
 
-    .main-menu li a {
+    .header__main-menu li a {
         padding: 0 5px 2px 0;
         text-shadow: 1px 1px 1px #666;
     }
 
-    .main-menu li:first-child a {
+    .header__main-menu li:first-child a {
         border-bottom: 2px solid #EFC0FA;
     }
 
+    article {
+        height: 342px;
+        border-top: 1px solid #36273A;
+        border-bottom: 1px solid #36273A;
+        background: linear-gradient(#75527F, #37293B);
+    }
+}
+
+@media screen and (min-width:960px) {
+
+    .header {
+        height: 845px;
+    }
+
+    .header__wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .header__logo {
+        display: block;
+        margin: 70px 70px 170px 0;
+        float: left;
+    }
+
+    .header__main-menu {
+        float: right;
+        margin-top: 71px;
+        margin-right: -5px;
+    }
+
+    .header__main-menu li {
+        margin: 5px 0 0 42px;
+    }
+
+    .header__main-menu li a {
+        padding: 0 5px 2px 5px;
+        text-shadow: 1px 1px 1px #444;
+    }
+
+    .header__main-menu li:first-child a {
+        border-bottom: 2px solid #EFC0FA;
+    }
+
+    article {
+        height: 342px;
+        border-top: 1px solid #36273A;
+        border-bottom: 1px solid #36273A;
+        background: linear-gradient(#75527F, #37293B);
+    }
+}
 
 </style>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
 
-            <ul class="main-menu">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="#"><img src="img/1header/logo.png" alt="PINGBULLER logo"></a>
+
+            <ul class="header__main-menu">
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">BLOG</a></li>
@@ -130,8 +196,16 @@ header {
                 <li><a href="">LOREM IPSUM</a></li>
                 <li><a href="">DOLOR SIT AMET</a></li>
             </ul>
-        </header>
 
-    </div>
+            <div class="header__slider">
+            </div>
+        </div>
+
+    </header>
+
+    <article>
+
+    </article>
+
 </body>
 </html>
