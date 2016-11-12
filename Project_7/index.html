@@ -6,47 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project_7</title>
     <link rel="stylesheet" href="css/reset.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 479px)"
+        href="css/style-320.css">
+
 <style>
-* {
-    box-sizing: border-box;
-}
 
-@font-face {
-    font-family: 'League Gothic Regular';
-    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #75527F;
-}
-
-.header {
-    background: url(img/1header/background.jpg) no-repeat;
-    background-size: 2400px 845px;
-    background-position: top center;
-}
-
-.header__main-menu li a {
-    display: block;
-    font-family: "League Gothic Regular", sans-serif;
-    font-size: 24px;
-    color: #FFF;
-}
-
-@media screen and (min-width:320px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
     .header {
         height: 515px;
@@ -55,23 +21,18 @@ body {
     }
 
     .header__wrapper {
-        width: 310px;
+        width: 472px;
         margin: 0 auto;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header__logo {
-        display: flex;
-        justify-content: center;
-        margin-top: 70px;
-        margin-bottom: 40px;
+        margin: 70px 0 40px;
     }
 
     .header__main-menu {
-        display: block;
-        position: absolute;
-        top: 130px;
-        left: 36px;
         width: 246px;
         height: 250px;
         visibility: hidden;
@@ -135,31 +96,7 @@ body {
         border-bottom: 1px solid #36273A;
         background: linear-gradient(#75527F, #37293B);
     }
-}
 
-@media screen and (min-width:480px) {
-
-    .header {
-        height: 548px;
-    }
-
-    .header__wrapper {
-        width: 480px;
-        margin: 0 auto;
-    }
-
-    .header__logo {
-        display: flex;
-        justify-content: center;
-        margin-top: 70px;
-    }
-
-    article {
-        height: 598px;
-        border-top: 1px solid #36273A;
-        border-bottom: 1px solid #36273A;
-        background: linear-gradient(#75527F, #37293B);
-    }
 }
 
 @media screen and (min-width:768px) {
@@ -175,7 +112,8 @@ body {
 
     .header__logo {
         display: block;
-        margin: 70px 0 40px;
+        padding-top: 70px;
+        margin-bottom: 40px;
     }
 
     .header__main-menu {
@@ -218,6 +156,9 @@ body {
         display: block;
         margin: 70px 70px 170px 0;
         float: left;
+
+
+        padding-top: 0;
     }
 
     .header__main-menu {

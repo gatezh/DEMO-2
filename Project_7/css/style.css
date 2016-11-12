@@ -1,46 +1,29 @@
-* {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'League Gothic Regular';
-    src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-a {
-    text-decoration: none;
-}
+* {box-sizing: border-box;}
+a {text-decoration: none;}
+ol, ul {list-style: none;}
 
 body {
     font-family: Arial, sans-serif;
+    background: #75527F;
 }
 
-@media screen and (min-width:960px) {
-    body {
-        background: url(../img/bg.jpg) no-repeat fixed;
-        background-size: 100%;
-        background-position: top;
-    }
+.header {
+    background: url(../img/1header/background.jpg) no-repeat;
+    background-size: 2400px 845px;
+    background-position: top center;
+}
 
-    .wrapper {
-         display: block;
-        width: 960px;
-        margin: 70px auto 0;
-    }
-
-    header {
-        height: 280px;
-          border: 1px dashed red;
-    }
-
-    .main-menu li {
-        display: inline-block;
-        font-family: "League Gothic Regular";
-        font-size: 24px;
-        color: #FFF;
-    }
-
+.header__main-menu li a {
+    display: block;
+    font-family: "League Gothic Regular", sans-serif;
+    font-size: 24px;
+    color: #FFF;
 }
