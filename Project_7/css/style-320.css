@@ -5,6 +5,7 @@
 }
 
 .header__wrapper {
+    position: relative;
     width: 310px;
     margin: 0 auto;
     display: flex;
@@ -17,12 +18,15 @@
 }
 
 
-/*            top-menu            */
+/*----------------top-menu----------------*/
 
 .header__main-menu {
+    visibility: hidden;
+    position: absolute;
+    left: 32px;
+    top: 134px;
     width: 246px;
     height: 250px;
-    visibility: hidden;
     border: 1px solid #000;
     border-radius: 10px;
     background: rgba(10, 10, 10, 0.7);
@@ -78,11 +82,100 @@
 }
 
 
-/*            slider            */
+/*----------------slider----------------*/
+
+.header__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "League Gothic", sans-serif;
+}
+
+.header__arrow-left {
+    width: 31px;
+    height: 42px;
+    background: url(../img/1header/slider/arrows.png) 0 0;
+}
+
+.header__arrow-left a {
+    display: block;
+}
+
+.header__arrow-right {
+    width: 31px;
+    height: 42px;
+    background: url(../img/1header/slider/arrows.png) -36px 0;
+}
+
+.header__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__slide h2 {
+    color: #FFF;
+    font-size: 22px;
+    text-shadow: 1px 1px #665E6D;
+}
+
+.header__slide h3 {
+    color: #EFC0FA;
+    font-size: 22px;
+    text-shadow: 1px 1px #665E6D;
+}
+
+.header__slide p {
+    visibility: hidden;
+}
+
+/*----------------about----------------*/
 
 article {
     height: 598px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
+    padding-top: 73px;
+}
+
+.about__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 26px 30px 33px;
+    padding-left: 49px;
+    background: url(../img/3about/wrench.png) no-repeat -3px 0px;
+}
+
+.about__block > h3 {
+    font-family: "League Gothic", sans-serif;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.about__block > p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.about__block span {
+    align-self: flex-end;
+}
+
+.about__block a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+
+.about__block a:hover {
+    text-shadow: 0 0 8px #fff;
 }
