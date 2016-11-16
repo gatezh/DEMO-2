@@ -1,0 +1,38 @@
+.header {
+    height: 798px;
+}
+
+.header__wrapper {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: block;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.header__main-menu {
+    display: flex;
+}
+
+.header__main-menu li {
+    margin: 0 50px 0 0;
+}
+
+.header__main-menu li a {
+    padding: 0 5px 2px 0;
+    text-shadow: 1px 1px 1px #666;
+}
+
+.header__main-menu li:first-child a {
+    border-bottom: 2px solid #EFC0FA;
+}
+
+article {
+    height: 342px;
+    border-top: 1px solid #36273A;
+    border-bottom: 1px solid #36273A;
+    background: linear-gradient(#75527F, #37293B);
+}
