@@ -21,7 +21,7 @@ body {
     background-position: top center;
 }
 
-.header__main-menu li a {
+.header__menu li a {
     display: block;
     font-family: "League Gothic", sans-serif;
     font-size: 24px;

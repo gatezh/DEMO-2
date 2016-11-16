@@ -16,22 +16,22 @@
     padding-top: 0;
 }
 
-.header__main-menu {
+.header__menu {
     float: right;
     margin-top: 71px;
     margin-right: -5px;
 }
 
-.header__main-menu li {
+.header__menu li {
     margin: 5px 0 0 42px;
 }
 
-.header__main-menu li a {
+.header__menu li a {
     padding: 0 5px 2px 5px;
     text-shadow: 1px 1px 1px #444;
 }
 
-.header__main-menu li:first-child a {
+.header__menu li:first-child a {
     border-bottom: 2px solid #EFC0FA;
 }
 

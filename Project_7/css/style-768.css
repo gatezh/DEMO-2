@@ -13,20 +13,20 @@
     margin-bottom: 40px;
 }
 
-.header__main-menu {
+.header__menu {
     display: flex;
 }
 
-.header__main-menu li {
+.header__menu li {
     margin: 0 50px 0 0;
 }
 
-.header__main-menu li a {
+.header__menu li a {
     padding: 0 5px 2px 0;
     text-shadow: 1px 1px 1px #666;
 }
 
-.header__main-menu li:first-child a {
+.header__menu li:first-child a {
     border-bottom: 2px solid #EFC0FA;
 }
 
