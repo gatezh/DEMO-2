@@ -187,11 +187,28 @@ article {
 
 .footer {
     height: 200px;
+    box-shadow: inset 0 2px 3px #000;
+    position: relative;
+}
+
+.footer__frost {
+    filter: blur(2px);
+    position: absolute;
+}
+
+.footer__frost p {
+    /*display: none;*/
+    font-size: 200px;
+    display: block;
+    width: 100%;
+}
+
+.footer__wrapper {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 42px;
-    box-shadow: inset 0 2px 3px #000;
 }
 
 .footer__menu {

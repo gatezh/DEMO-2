@@ -18,7 +18,7 @@ body {
 .header {
     background: url(../img/1header/background.jpg) no-repeat;
     background-size: 2400px 845px;
-    background-position: top center;
+    background-position: center;
 }
 
 .header__menu li a {
@@ -30,4 +30,16 @@ body {
 
 .header__slider {
     font-family: "League Gothic", sans-serif;
+}
+
+.footer {
+    background: url(../img/7footer/bg-footer.jpg) no-repeat;
+    background-size: 2400px 200px;
+    background-position: center;
+}
+
+.footer__wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
 }
