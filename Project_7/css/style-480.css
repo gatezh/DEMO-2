@@ -84,6 +84,34 @@ article {
 
 
 
+/*----------------news categories----------------*/
+
+.news-comments {
+    height: 670px;
+    background: #ECECEC;
+}
+
+.news-comments__wrapper {
+    width: 480px;
+    padding: 80px 20px 0 20px;
+    margin: 0 auto;
+}
+
+.news-comments__news {
+    margin-bottom: 60px;
+}
+
+.news-comments__news h3 {
+    color: #454545;
+    font: 24px/24px "League Gothic", sans-serif;
+}
+
+.news-comments__news p {
+    color: #787878;
+    font: 16px/24px "Open Sans", sans-serif;
+}
+
+
 /*----------------footer----------------*/
 
 .footer {
@@ -100,8 +128,7 @@ article {
 
 .footer__menu {
     display: flex;
-    font-family: "League Gothic", sans-serif;
-    font-size: 20px;
+    font: 20px "League Gothic", sans-serif;
     margin-bottom: 38px;
 }
 
@@ -112,8 +139,7 @@ article {
 }
 
 .footer p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font: 12px "Open Sans", sans-serif;
     color: #fff;
     text-shadow: 2px 2px 0 #000;
 }

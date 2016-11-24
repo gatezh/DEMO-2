@@ -183,6 +183,13 @@ article {
 
 
 
+/*----------------news & comments categories----------------*/
+
+.news-comments {
+    display: none;
+}
+
+
 /*----------------footer----------------*/
 
 .footer {
