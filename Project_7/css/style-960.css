@@ -1,5 +1,5 @@
 .header {
-    height: 845px;
+    height: 846px;
 }
 
 .header__wrapper {
@@ -36,7 +36,7 @@
 }
 
 article {
-    height: 342px;
+    height: 343px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);

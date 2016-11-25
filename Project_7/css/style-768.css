@@ -9,8 +9,7 @@
 
 .header__logo {
     display: block;
-    padding-top: 70px;
-    margin-bottom: 40px;
+    padding: 70px 0 29px;
 }
 
 .header__menu {
@@ -18,7 +17,7 @@
 }
 
 .header__menu li {
-    margin: 0 50px 0 0;
+    margin-right: 47px;
 }
 
 .header__menu li a {

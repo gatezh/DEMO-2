@@ -18,7 +18,7 @@ body {
 .header {
     background: url(../img/1header/background.jpg) no-repeat;
     background-size: 2400px 845px;
-    background-position: center;
+    background-position: center top;
 }
 
 .header__menu li a {

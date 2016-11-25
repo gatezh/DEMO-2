@@ -1,5 +1,5 @@
 .header {
-    height: 515px;
+    height: 549px;
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .header__logo {
-    margin: 70px 0 40px;
+    margin: 70px 0 20px;
 }
 
 .header__menu {
@@ -75,7 +75,7 @@
 }
 
 article {
-    height: 598px;
+    height: 599px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
