@@ -74,7 +74,7 @@
     box-shadow: inset 0 -2px 0 0 #EFC0FA;
 }
 
-article {
+.about {
     height: 599px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
@@ -82,9 +82,25 @@ article {
 }
 
 
+/*---------------- updates ----------------*/
+
+.updates {
+    height: 785px;
+    background: #F9F9F9;
+}
 
 
-/*----------------news categories----------------*/
+/*---------------- sponsors ----------------*/
+
+.sponsors {
+    height: 230px;
+    background: #F9F9F9;
+    border-top: 2px solid #EDEDED;
+    border-bottom: 2px solid #DEDEDE;
+}
+
+
+/*---------------- news-comments ----------------*/
 
 .news-comments {
     height: 670px;
@@ -112,7 +128,7 @@ article {
 }
 
 
-/*----------------footer----------------*/
+/*---------------- footer ----------------*/
 
 .footer {
     height: 200px;

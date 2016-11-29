@@ -1,5 +1,5 @@
 .header {
-    height: 517px;
+    height: 515px;
     display: flex;
     justify-content: center;
 }
@@ -18,7 +18,7 @@
 }
 
 
-/*----------------top-menu----------------*/
+/*---------------- top-menu ----------------*/
 
 .header__menu {
     visibility: hidden;
@@ -82,7 +82,7 @@
 }
 
 
-/*----------------slider----------------*/
+/*---------------- slider ----------------*/
 
 .header__slider {
     display: flex;
@@ -130,20 +130,21 @@
     visibility: hidden;
 }
 
-/*----------------about----------------*/
 
-article {
+/*---------------- about ----------------*/
+
+.about {
     height: 598px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
-    padding-top: 73px;
+    padding-top: 70px;
 }
 
 .about__block {
     display: flex;
     flex-direction: column;
-    margin: 0 26px 30px 33px;
+    margin: 0 26px 24px 33px;
     padding-left: 49px;
     background: url(../img/3about/wrench.png) no-repeat -3px 0px;
 }
@@ -163,7 +164,7 @@ article {
     font-size: 16px;
     color: #E0E0E1;
     margin-bottom: 16px;
-    text-shadow: 2px 2px 0 0f1518;
+    text-shadow: 2px 2px 0 #0f1518;
 }
 
 .about__block span {
@@ -181,16 +182,36 @@ article {
 }
 
 
+/*---------------- updates ----------------*/
+
+.updates {
+    height: 785px;
+    background: #F9F9F9;
+}
 
 
-/*----------------news & comments categories----------------*/
+/*---------------- sponsors ----------------*/
+
+.sponsors {
+    height: 230px;
+    background: #F9F9F9;
+    border-top: 2px solid #F1F1F1;
+}
+
+.sponsors__sponsor {
+    width: ;
+    height: ;
+}
+
+
+/*---------------- news-comments ----------------*/
 
 .news-comments {
     display: none;
 }
 
 
-/*----------------footer----------------*/
+/*---------------- footer ----------------*/
 
 .footer {
     height: 200px;
