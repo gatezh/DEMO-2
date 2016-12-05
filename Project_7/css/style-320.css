@@ -196,15 +196,24 @@
     height: 424px;
     background: #F9F9F9;
     border-top: 2px solid #F1F1F1;
+    padding: 25px 40px 48px;
 }
 
 .sponsors__list {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .sponsors__list li {
-    margin: 5px;
+    /*margin: 5px;*/
+}
+
+.sponsors__list li:nth-child(odd) {
+    margin-right: 56px;
 }
 
 .sponsors__sponsor1 {
