@@ -20,5 +20,11 @@ There are couple of other projects in [this repository](https://github.com/gatez
 ###Project 5 ([preview](https://cdn.rawgit.com/gatezh/DEMO-2/master/Project_5/index.html))
 - learned more about flexbox
 
-###Project 6 ([preview](https://rawgit.com/gatezh/DEMO-2/master/Project_6/index.html)) - in progress
+###Project 6 ([preview](https://cdn.rawgit.com/gatezh/DEMO-2/master/Project_6/index.html))
+
+###Project 7 ([preview](https://rawgit.com/gatezh/DEMO-2/master/Project_7/index.html)) <--- in progress
+> Resize browser window to see changes
+
+This is an example of responsive website with `320px`, `480px`, `768px` and `960px` breakpoints.
+
 
