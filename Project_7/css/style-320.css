@@ -191,7 +191,7 @@
 }
 
 .updates__slider {
-    height: 315px;
+    height: 270px;
     margin-left: 23px;
     background: #FFF;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
@@ -200,6 +200,7 @@
 .updates__slide {
     padding: 25px 35px 30px 35px;
     position: relative;
+    display: none;
 }
 
 .updates__slide img {
@@ -227,28 +228,32 @@
     color: #454545;
 }
 
-/*WHEN slider is DONE*/
-.updates__slide {
-    display: none;
+
+/*.w3-center {text-align:center!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-large{font-size:18px!important}
+.w3-text-white{color:#fff!important}*/
+
+/*.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}*/
+
+.updates__slider-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 16px 23px;
 }
 
 .updates__sircle {
-    height:13px;
-    width:13px;
-    padding:0
+    height: 15px;
+    width: 15px;
     background-color: #000;
-    color: #fff;
-    display:inline-block;
-    padding-left:8px;
-    padding-right:8px;
-    text-align:center;
-    border-radius:50%;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    background-color: transparent;
 }
 
-.w3-left{float:left!important}.w3-right{float:right!important}
-.w3-border {border:1px solid #ccc!important}
-.w3-transparent{background-color:transparent!important}
-.w3-hover-white:hover{color:#000!important;background-color:#454545!important}
+.updates__sircle:hover {
+    background-color: #454545;
+}
 
 
 /*---------------- sponsors ----------------*/
