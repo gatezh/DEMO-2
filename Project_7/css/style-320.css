@@ -187,6 +187,104 @@
 .updates {
     height: 785px;
     background: #F9F9F9;
+    padding-top: 70px;
+}
+
+.updates__slider {
+    height: 270px;
+    margin-left: 23px;
+    background: #FFF;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.updates__slide {
+    padding: 25px 35px 30px 35px;
+    position: relative;
+    display: none;
+}
+
+.updates__slide img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+.updates__slide :nth-child(2) {
+    font: 24px/100% "League Gothic", sans-serif;
+    color: #454545;
+}
+
+.updates__slide :nth-child(3) {
+    font: 24px/100% "League Gothic", sans-serif;
+    color: #EFC0FA;
+}
+
+.updates__slide p {
+    font: 16px/150% 'Open Sans', sans-serif;
+    color: #454545;
+}
+
+
+/*.w3-center {text-align:center!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-large{font-size:18px!important}
+.w3-text-white{color:#fff!important}*/
+
+/*.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}*/
+
+.updates__slider-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 48px 46px;
+}
+
+.updates__sircle {
+    height: 18px;
+    width: 18px;
+    background-color: #000;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 2px 2px;
+}
+
+.updates__sircle:hover {
+    background-color: #454545;
+}
+
+
+
+
+.updates__resent-updates h2 {
+    margin-left: 19px;
+    font: 30px/24px "League Gothic", sans-serif;
+}
+
+.updates__update {
+    height: 48px;
+    margin-top: 19px;
+    padding-left: 86px;
+    background: url(../img/4updates/update-image.png) no-repeat 20px 0px;
+}
+
+.updates__update h3 {
+    font: bold 17px/24px "Open Sans", sans-serif;
+}
+
+.updates__update p {
+    font: 16px/24px "Open Sans", sans-serif;
+    letter-spacing: -0.4px;
+}
+
+.updates__more-updates a {
+    color: #454545;
+    font: 18px/24px "League Gothic", sans-serif;
+    float: right;
+    margin: 16px 25px 0 0;
 }
 
 
@@ -208,10 +306,6 @@
     justify-content: center;
 }
 
-.sponsors__list li {
-    /*margin: 5px;*/
-}
-
 .sponsors__list li:nth-child(odd) {
     margin-right: 56px;
 }
@@ -222,10 +316,18 @@
     background: url(../img/5sponsors/sponsors.png) 0 0;
 }
 
+.sponsors__sponsor1:hover {
+    background: url(../img/5sponsors/sponsors.png) 0 -77px;
+}
+
 .sponsors__sponsor2 {
     width: 72px;
     height: 64px;
     background: url(../img/5sponsors/sponsors.png) -77px -1px;
+}
+
+.sponsors__sponsor2:hover {
+    background: url(../img/5sponsors/sponsors.png) -77px -77px;
 }
 
 .sponsors__sponsor3 {
@@ -234,10 +336,18 @@
     background: url(../img/5sponsors/sponsors.png) -158px 0;
 }
 
+.sponsors__sponsor3:hover {
+    background: url(../img/5sponsors/sponsors.png) -158px -77px;
+}
+
 .sponsors__sponsor4 {
     width: 50px;
     height: 63px;
-    background: url(../img/5sponsors/sponsors.png) -234px 0;
+    background: url(../img/5sponsors/sponsors.png) -235px 0;
+}
+
+.sponsors__sponsor4:hover {
+    background: url(../img/5sponsors/sponsors.png) -235px -77px;
 }
 
 .sponsors__sponsor5 {
@@ -246,10 +356,18 @@
     background: url(../img/5sponsors/sponsors.png) -299px -22px;
 }
 
+.sponsors__sponsor5:hover {
+    background: url(../img/5sponsors/sponsors.png) -299px -98px;
+}
+
 .sponsors__sponsor6 {
     width: 78px;
     height: 61px;
     background: url(../img/5sponsors/sponsors.png) -410px -2px;
+}
+
+.sponsors__sponsor6:hover {
+    background: url(../img/5sponsors/sponsors.png) -410px -78px;
 }
 
 
