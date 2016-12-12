@@ -74,11 +74,54 @@
     box-shadow: inset 0 -2px 0 0 #EFC0FA;
 }
 
+
+/*---------------- about ----------------*/
+
 .about {
     height: 599px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
+    padding-top: 77px;
+}
+
+.about__block {
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 26px 24px 33px;
+    padding-left: 49px;
+    background: url(../img/3about/wrench.png) no-repeat -3px 0px;
+}
+
+.about__block > h3 {
+    font: 24px "League Gothic", sans-serif;
+    color: #FFF;
+    margin-bottom: 2px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about__block > p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #E0E0E1;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 0 #0f1518;
+}
+
+.about__block span {
+    align-self: flex-end;
+}
+
+.about__block a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+
+.about__block a:hover {
+    text-shadow: 0 0 8px #fff;
 }
 
 
@@ -87,34 +130,206 @@
 .updates {
     height: 785px;
     background: #F9F9F9;
+    padding-top: 70px;
+}
+
+.updates__slider {
+    height: 270px;
+    margin-left: 45px;
+    background: #FFF;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.updates__slide {
+    padding: 25px 35px 30px 35px;
+    position: relative;
+    display: none;
+}
+
+.updates__slide img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+.updates__slide :nth-child(2) {
+    font: 24px/100% "League Gothic", sans-serif;
+    color: #454545;
+}
+
+.updates__slide :nth-child(3) {
+    font: 24px/100% "League Gothic", sans-serif;
+    color: #EFC0FA;
+}
+
+.updates__slide p {
+    font: 16px/150% 'Open Sans', sans-serif;
+    color: #454545;
+}
+
+
+/*.w3-center {text-align:center!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-large{font-size:18px!important}
+.w3-text-white{color:#fff!important}*/
+
+/*.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}*/
+
+.updates__slider-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 48px 12px;
+}
+
+.updates__sircle {
+    height: 18px;
+    width: 18px;
+    background-color: #000;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 2px 2px;
+}
+
+.updates__sircle:hover {
+    background-color: #454545;
+}
+
+
+
+
+.updates__resent-updates h2 {
+    margin-left: 82px;
+    font: 30px/24px "League Gothic", sans-serif;
+}
+
+.updates__update {
+    height: 48px;
+    margin-top: 19px;
+    padding-left: 149px;
+    background: url(../img/4updates/update-image.png) no-repeat 83px 0px;
+}
+
+.updates__update h3 {
+    font: bold 17px/24px "Open Sans", sans-serif;
+}
+
+.updates__update p {
+    font: 16px/24px "Open Sans", sans-serif;
+    letter-spacing: -0.4px;
+}
+
+.updates__more-updates a {
+    color: #454545;
+    font: 18px/24px "League Gothic", sans-serif;
+    float: right;
+    margin: 16px 60px 0 0;
 }
 
 
 /*---------------- sponsors ----------------*/
 
 .sponsors {
-    height: 230px;
+    height: 236px;
     background: #F9F9F9;
-    border-top: 2px solid #EDEDED;
-    border-bottom: 2px solid #DEDEDE;
+    border-top: 2px solid #F1F1F1;
+    padding: 25px 40px 48px;
+}
+
+.sponsors__list {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.sponsors__list li {
+    margin: 19px 28px 5px;
+}
+
+.sponsors__sponsor1 {
+    width: 69px;
+    height: 65px;
+    background: url(../img/5sponsors/sponsors.png) 0 0;
+}
+
+.sponsors__sponsor1:hover {
+    background: url(../img/5sponsors/sponsors.png) 0 -77px;
+}
+
+.sponsors__sponsor2 {
+    width: 72px;
+    height: 64px;
+    background: url(../img/5sponsors/sponsors.png) -77px -1px;
+}
+
+.sponsors__sponsor2:hover {
+    background: url(../img/5sponsors/sponsors.png) -77px -77px;
+}
+
+.sponsors__sponsor3 {
+    width: 65px;
+    height: 64px;
+    background: url(../img/5sponsors/sponsors.png) -158px 0;
+}
+
+.sponsors__sponsor3:hover {
+    background: url(../img/5sponsors/sponsors.png) -158px -77px;
+}
+
+.sponsors__sponsor4 {
+    width: 50px;
+    height: 63px;
+    background: url(../img/5sponsors/sponsors.png) -235px 0;
+}
+
+.sponsors__sponsor4:hover {
+    background: url(../img/5sponsors/sponsors.png) -235px -77px;
+}
+
+.sponsors__sponsor5 {
+    width: 103px;
+    height: 21px;
+    background: url(../img/5sponsors/sponsors.png) -299px -22px;
+}
+
+.sponsors__sponsor5:hover {
+    background: url(../img/5sponsors/sponsors.png) -299px -98px;
+}
+
+.sponsors__sponsor6 {
+    width: 78px;
+    height: 61px;
+    background: url(../img/5sponsors/sponsors.png) -410px -2px;
+}
+
+.sponsors__sponsor6:hover {
+    background: url(../img/5sponsors/sponsors.png) -410px -78px;
 }
 
 
 /*---------------- news-comments ----------------*/
 
 .news-comments {
-    height: 670px;
+    height: 667px;
     background: #ECECEC;
 }
 
 .news-comments__wrapper {
     width: 480px;
-    padding: 80px 20px 0 20px;
+    padding: 78px 20px 0 18px;
     margin: 0 auto;
 }
 
 .news-comments__news {
-    margin-bottom: 60px;
+    height: 125px;
+    margin-bottom: 61px;
 }
 
 .news-comments__news h3 {
@@ -139,13 +354,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 46px;
+    padding-top: 43px;
 }
 
 .footer__menu {
     display: flex;
     font: 20px "League Gothic", sans-serif;
-    margin-bottom: 38px;
+    margin-bottom: 30px;
 }
 
 .footer__menu a {
@@ -157,7 +372,7 @@
 .footer p {
     font: 12px "Open Sans", sans-serif;
     color: #fff;
-    text-shadow: 2px 2px 0 #000;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 
 .footer span {
