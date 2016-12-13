@@ -29,13 +29,58 @@
     border-bottom: 2px solid #EFC0FA;
 }
 
+
+/*---------------- about ----------------*/
+
 .about {
     height: 342px;
     border-top: 1px solid #36273A;
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
+    border-bottom: 1px solid #36273A;
+    padding: 75px 46px 0px 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.about__block {
+    width: 195px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 49px;
+    background: url(../img/3about/wrench.png) no-repeat -3px 3px;
+}
+
+.about__block > h3 {
+    font: 22px "League Gothic", sans-serif;
+    color: #FFF;
+    margin-bottom: 2px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.7px;
+}
+
+.about__block > p {
+    font: 300 16px/24px 'Open Sans', sans-serif;
+    color: #E0E0E1;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 0 #0f1518;
+}
+
+.about__block span {
+    align-self: flex-end;
+    letter-spacing: 0.2px;
+}
+
+.about__block a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+
+.about__block a:hover {
+    text-shadow: 0 0 8px #fff;
+}
 
 
 
