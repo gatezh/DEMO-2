@@ -9,31 +9,39 @@
 
 .header__logo {
     display: block;
-    margin: 70px 70px 170px 0;
+    margin: 70px 170px 170px 0;
     float: left;
+    clear: both;
+}
 
-
-    padding-top: 0;
+.header__logo :after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .header__menu {
-    float: right;
-    margin-top: 71px;
-    margin-right: -5px;
-}
-
-.header__menu li {
-    margin: 5px 0 0 42px;
+    width: 638px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+    margin-bottom: 180px;
 }
 
 .header__menu li a {
-    padding: 0 5px 2px 5px;
-    text-shadow: 1px 1px 1px #444;
+    padding: 0 5px 2px 0;
+    text-shadow: 1px 1px 1px #666;
 }
 
 .header__menu li:first-child a {
     border-bottom: 2px solid #EFC0FA;
+    padding-left: 5px;
 }
+
+
+/*---------------- about ----------------*/
+
 
 .about {
     height: 343px;
