@@ -216,6 +216,87 @@
 }
 
 
+/*---------------- sponsors ----------------*/
+
+.sponsors {
+    height: 120px;
+    background: #F9F9F9;
+    border-top: 2px solid #F1F1F1;
+    padding: 32px 60px 48px;
+}
+
+.sponsors__list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sponsors__list li {
+    margin: 19px 20px 5px;
+}
+
+.sponsors__sponsor1 {
+    width: 69px;
+    height: 65px;
+    background: url(../img/5sponsors/sponsors.png) 0 0;
+}
+
+.sponsors__sponsor1:hover {
+    background: url(../img/5sponsors/sponsors.png) 0 -77px;
+}
+
+.sponsors__sponsor2 {
+    width: 72px;
+    height: 64px;
+    background: url(../img/5sponsors/sponsors.png) -77px -1px;
+}
+
+.sponsors__sponsor2:hover {
+    background: url(../img/5sponsors/sponsors.png) -77px -77px;
+}
+
+.sponsors__sponsor3 {
+    width: 65px;
+    height: 64px;
+    background: url(../img/5sponsors/sponsors.png) -158px 0;
+}
+
+.sponsors__sponsor3:hover {
+    background: url(../img/5sponsors/sponsors.png) -158px -77px;
+}
+
+.sponsors__sponsor4 {
+    width: 50px;
+    height: 63px;
+    background: url(../img/5sponsors/sponsors.png) -235px 0;
+}
+
+.sponsors__sponsor4:hover {
+    background: url(../img/5sponsors/sponsors.png) -235px -77px;
+}
+
+.sponsors__sponsor5 {
+    width: 103px;
+    height: 21px;
+    background: url(../img/5sponsors/sponsors.png) -299px -22px;
+}
+
+.sponsors__sponsor5:hover {
+    background: url(../img/5sponsors/sponsors.png) -299px -98px;
+}
+
+.sponsors__sponsor6 {
+    width: 78px;
+    height: 61px;
+    background: url(../img/5sponsors/sponsors.png) -410px -2px;
+}
+
+.sponsors__sponsor6:hover {
+    background: url(../img/5sponsors/sponsors.png) -410px -78px;
+}
+
+
 /*---------------- footer ----------------*/
 
 .footer {
