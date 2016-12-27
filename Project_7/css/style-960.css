@@ -48,9 +48,14 @@
     border-bottom: 1px solid #36273A;
     background: linear-gradient(#75527F, #37293B);
     border-bottom: 1px solid #36273A;
-    padding: 75px 46px 0px 14px;
+}
+
+.about__container {
+    width: 960px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 75px 46px 0px 14px;
 }
 
 .about__block {
