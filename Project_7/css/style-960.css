@@ -312,6 +312,39 @@
 }
 
 
+/*---------------- news-comments ----------------*/
+
+.news-comments {
+    height: 397px;
+    background: #ECECEC;
+}
+
+.news-comments__wrapper {
+    width: 960px;
+    padding: 103px 20px 0 18px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-comments__news {
+    height: 182px;
+    margin-bottom: 61px;
+    overflow: hidden;
+}
+
+.news-comments__news h3 {
+    color: #454545;
+    font: 30px/24px "League Gothic", sans-serif;
+    margin-bottom: 10px;
+}
+
+.news-comments__news p {
+    color: #787878;
+    font: 300 16px/24px "Open Sans", sans-serif;
+}
+
+
 /*---------------- footer ----------------*/
 
 .footer {
