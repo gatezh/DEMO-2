@@ -88,13 +88,18 @@
 .updates {
     height: 485px;
     background: #F9F9F9;
+}
+
+.updates__container {
+    width: 768px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 100px 10px 0 10px;
 }
 
 .updates__slider-container {
-    width: 312px;
+    width: 360px;
 }
 
 .updates__slider {
