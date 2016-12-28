@@ -211,7 +211,12 @@
     height: 120px;
     background: #F9F9F9;
     border-top: 2px solid #F1F1F1;
-    padding: 25px 40px 48px;
+}
+
+.sponsors__wrapper {
+    width: 768px;
+    margin: auto;
+    padding: ;
 }
 
 .sponsors__list {
@@ -224,7 +229,7 @@
 }
 
 .sponsors__list li {
-    margin: 19px 20px 5px;
+    margin: 25px 27px 5px;
 }
 
 .sponsors__sponsor1 {
