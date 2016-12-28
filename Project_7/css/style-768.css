@@ -278,7 +278,6 @@
 }
 
 
-
 /*---------------- news-comments ----------------*/
 
 .news-comments {
@@ -298,6 +297,14 @@
     height: 182px;
     margin-bottom: 61px;
     overflow: hidden;
+}
+
+.news-comments__news img {
+    display: none;
+}
+
+.news-comments__news .news-comments__copyright {
+    display: none;
 }
 
 .news-comments__news h3 {
