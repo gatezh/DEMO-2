@@ -328,9 +328,25 @@
 }
 
 .news-comments__news {
+    width: 280px;
     height: 182px;
     margin-bottom: 61px;
     overflow: hidden;
+}
+
+.news-comments__news img {
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.news-comments__news .news-comments__copyright {
+    color: #C5C5C5;
+    font: italic 16px/24px Georgia, serif;
+    margin-bottom: 5px;
+}
+
+.news-comments__news:first-child h3 {
+    display: none;
 }
 
 .news-comments__news h3 {
