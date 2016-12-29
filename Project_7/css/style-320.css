@@ -314,6 +314,10 @@
     margin-right: 56px;
 }
 
+.sponsors__list > li:nth-child(3) {
+    margin-right: 75px;
+}
+
 .sponsors__sponsor1 {
     width: 69px;
     height: 65px;
