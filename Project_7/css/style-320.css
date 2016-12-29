@@ -141,6 +141,11 @@
     padding-top: 70px;
 }
 
+.about__container {
+    width: 320px;
+    margin: auto;
+}
+
 .about__block {
     display: flex;
     flex-direction: column;
