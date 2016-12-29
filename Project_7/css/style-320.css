@@ -159,9 +159,7 @@
 }
 
 .about__block > p {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    font-size: 16px;
+    font: 300 16px/24px 'Open Sans', sans-serif;
     color: #E0E0E1;
     margin-bottom: 16px;
     text-shadow: 2px 2px 0 #0f1518;
@@ -224,7 +222,7 @@
 }
 
 .updates__slide p {
-    font: 16px/150% 'Open Sans', sans-serif;
+    font:300 16px/150% 'Open Sans', sans-serif;
     color: #454545;
 }
 
@@ -276,7 +274,7 @@
 }
 
 .updates__update p {
-    font: 16px/24px "Open Sans", sans-serif;
+    font: 300 16px/24px "Open Sans", sans-serif;
     letter-spacing: -0.4px;
 }
 
@@ -392,7 +390,6 @@
 }
 
 .footer__frost p {
-    /*display: none;*/
     font-size: 200px;
     display: block;
     width: 100%;
@@ -411,8 +408,7 @@
 }
 
 .footer p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font: 300 12px 'Open Sans', sans-serif;
     color: #fff;
     text-shadow: 2px 2px 0 #000;
 }
