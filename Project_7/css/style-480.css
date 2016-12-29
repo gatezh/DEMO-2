@@ -85,6 +85,11 @@
     padding-top: 77px;
 }
 
+.about__container {
+    width: 480px;
+    margin: auto;
+}
+
 .about__block {
     height: 133px;
     display: flex;
