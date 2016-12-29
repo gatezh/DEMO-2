@@ -130,7 +130,12 @@
 .updates {
     height: 785px;
     background: #F9F9F9;
-    padding-top: 70px;
+}
+
+.updates__container {
+    width: 480px;
+    margin: auto;
+    padding: 70px 20px 0;
 }
 
 .updates__slider {
