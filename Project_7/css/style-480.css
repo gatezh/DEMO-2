@@ -237,6 +237,11 @@
     height: 236px;
     background: #F9F9F9;
     border-top: 2px solid #F1F1F1;
+}
+
+.sponsors__wrapper {
+    width: 480px;
+    margin: auto;
     padding: 25px 40px 48px;
 }
 
