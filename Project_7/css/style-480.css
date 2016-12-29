@@ -332,6 +332,14 @@
     margin-bottom: 61px;
 }
 
+.news-comments__news img {
+    display: none;
+}
+
+.news-comments__news .news-comments__copyright {
+    display: none;
+}
+
 .news-comments__news h3 {
     color: #454545;
     font: 24px/24px "League Gothic", sans-serif;
